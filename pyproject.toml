@@ -1,0 +1,13 @@
+[project]
+name = "learning-analytics-toolkit"
+version = "0.1.0"
+description = "Cleans messy multi-source tutoring, web, and marketing data, scores students for academic support needs, and produces a pivot-style Excel reporting workbook"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "openpyxl>=3.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
